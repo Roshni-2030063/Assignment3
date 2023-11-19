@@ -3,7 +3,7 @@ include 'connect.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
@@ -74,23 +74,23 @@ include 'connect.php';
 
       <div class="col-md-7 first-col">
 
-        <form>
+        <form action="connect.php" method="POST">
 
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Enter Your Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" name="name">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" name="name" required>
           </div>
 
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Enter Your Email</label>
             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
-              name="email">
+              name="email" required>
           </div>
 
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Write what you want to.</label>
             <textarea type="text" class="form-control" id="exampleFormControlTextarea1" placeholder="Write something..."
-              rows="5" name="message"></textarea>
+              rows="5" name="message" required></textarea>
           </div>
 
           <div class="button">
@@ -113,8 +113,8 @@ include 'connect.php';
       $email = $_POST['email'];
       $message = $_POST['message'];
       $formQuery = "INSERT INTO contact_t (Name, Email, 
-  , Message) VALUES 
-  ('$name', '$email', '$message')";
+      , Message) VALUES 
+      ('$name', '$email', '$message')";
       $formTable = mysqli_query($conn, $formQuery);
     }
     ?>
