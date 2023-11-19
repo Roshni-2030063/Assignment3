@@ -1,0 +1,124 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(210, 17%, 98%);
+    background-position: cover;
+    background-image: url(images/galaxy.jpg);
+}
+
+.form-label{
+    font-weight: 600;
+}
+
+.form-control{
+    height: 52px;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: none !important;
+    border: 2px solid blue;
+}
+
+.form-control[type=text]:focus{
+   border: 2px solid black; 
+}
+
+.btn-primary{
+    background-color:black;
+    border: 3px solid blue;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: blue;
+    border-color: black;
+}
+
+.img-fuild{
+    width: 20px;
+}
+
+h4{
+    color: paleturquoise;
+}
+
+.details{
+    margin-top: 50px !important;
+}
+
+.header{
+   text-align: center;
+   margin-top: 10px !important;
+}
+
+.header h1{
+    font-weight: 600;
+   
+}
+
+.header p{
+    font-size: 15px;
+    font-style: italic;
+    color: paleturquoise;
+}
+
+
+
+
+/* .img-fluid{
+    border-radius: 20px;
+    
+}
+
+.last_row{
+    width: 60% !important;
+    position: relative !important;
+    left: 350px;
+    top: 50px;
+    height: 200px;
+    padding-bottom: 100px !important;
+    background-color: #c1b688;
+    border-radius: 20px;
+}
+
+.btn-primary{
+    background-color: #c1b688;
+    border-color: #c1b688;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: black;
+}
+
+.form-control{
+    height: 52px;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid #555;
+}
+
+.form-control[type=text]:focus{
+   border: 2px solid #555; 
+}
+
+@media only screen and(max-width:600px){
+    .first-col{
+        position: initial;
+        left: 0;
+    }
+
+    .last_row{
+        left: 0 impot !important;
+        width: 100% !important;
+        height: 480px !important;
+        top: 0 !important;
+    }
+} */
+
+
+
+
