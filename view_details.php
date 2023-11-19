@@ -61,7 +61,6 @@ include 'connect.php';
             border-radius: 5px;
             background: linear-gradient(135deg, #71b7e6, #9b59b6);
         }
-
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
@@ -78,8 +77,9 @@ include 'connect.php';
         </thead>
         <tbody>
             <?php
-            $viewMessage = "SELECT * 
-                 FROM contact_t";
+            //                       FROM contact_t";
+            $viewMessage = "SELECT *  FROM demo_test";
+
             $result = mysqli_query($conn, $viewMessage);
             while ($row = mysqli_fetch_assoc($result)) {
             ?>

@@ -1,4 +1,5 @@
-CREATE TABLE `contact_t` (
+-- CREATE TABLE `contact_t` (
+CREATE TABLE `demo_test` (
   `Name` varchar(255) NOT NULL,
   `Email` varchar(255) NOT NULL,
   `Message` LONGTEXT NOT NULL
