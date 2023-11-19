@@ -24,13 +24,13 @@ body{
    border: 2px solid black; 
 }
 
-.btn-primary{
+.button{
     background-color:black;
     border: 3px solid blue;
     color: white;
 }
 
-.btn-primary:hover{
+.button:hover{
     background-color: blue;
     border-color: black;
 }

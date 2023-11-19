@@ -25,7 +25,6 @@ include 'connect.php';
       transition: 0.5s;
       background-size: 200% auto;
       color: white;
-      /* box-shadow: 0 0 20px #eee; */
       border-radius: 10px;
       display: block;
     }
@@ -71,7 +70,7 @@ include 'connect.php';
 
       <div class="col-md-7 first-col">
 
-        <!-- <form action="connect.php" method="POST"> -->
+        
         <form method="POST">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Enter Your Name</label>
@@ -108,7 +107,7 @@ include 'connect.php';
       $email = $_POST['email'];
       $message = $_POST['message'];
      
-      // $formQuery = "INSERT INTO contact_t (Name, Email, 
+      
       $formQuery = "INSERT INTO demo_test (Name, Email, 
        Message) VALUES 
       ('$name', '$email', '$message')";
